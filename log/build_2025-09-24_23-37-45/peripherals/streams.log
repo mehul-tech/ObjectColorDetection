@@ -1,0 +1,52 @@
+[1.604s] Invoking command in '/home/mehul/elec555_ws/build/peripherals': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data
+[1.841s] running develop
+[2.008s] running egg_info
+[2.008s] creating peripherals.egg-info
+[2.008s] writing peripherals.egg-info/PKG-INFO
+[2.008s] writing dependency_links to peripherals.egg-info/dependency_links.txt
+[2.008s] writing entry points to peripherals.egg-info/entry_points.txt
+[2.008s] writing requirements to peripherals.egg-info/requires.txt
+[2.008s] writing top-level names to peripherals.egg-info/top_level.txt
+[2.009s] writing manifest file 'peripherals.egg-info/SOURCES.txt'
+[2.011s] reading manifest file 'peripherals.egg-info/SOURCES.txt'
+[2.011s] writing manifest file 'peripherals.egg-info/SOURCES.txt'
+[2.013s] running build_ext
+[2.013s] Creating /home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages/peripherals.egg-link (link to .)
+[2.014s] Installing joystick_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[2.014s] Installing teleop_key_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[2.014s] Installing tf_broadcaster_imu script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[2.014s] 
+[2.015s] Installed /home/mehul/elec555_ws/build/peripherals
+[2.015s] running symlink_data
+[2.015s] creating /home/mehul/elec555_ws/install/peripherals/share/ament_index
+[2.015s] creating /home/mehul/elec555_ws/install/peripherals/share/ament_index/resource_index
+[2.015s] creating /home/mehul/elec555_ws/install/peripherals/share/ament_index/resource_index/packages
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/resource/peripherals -> /home/mehul/elec555_ws/install/peripherals/share/ament_index/resource_index/packages
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/package.xml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals
+[2.015s] creating /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/imu_filter.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/usb_cam.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/imu_view.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/teleop_key_control.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/lidar_view.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/joystick_control.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/lidar.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/depth_camera.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch
+[2.015s] creating /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/ldlidar_LD19.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/ascamera.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.015s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/ydlidar_g4.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/sllidar_a1.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/hp60c_cp.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/launch/include/hp60c.launch.py -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/launch/include
+[2.016s] creating /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/lidar_filters_config_a1.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/lidar_filters_config_g4.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/lidar_filters_config_ld19.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/usb_cam_param.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/camera_info.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/config/lidar_filters_config_ld14p.yaml -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/config
+[2.016s] creating /home/mehul/elec555_ws/install/peripherals/share/peripherals/rviz
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/rviz/lidar_view.rviz -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/rviz
+[2.016s] symbolically linking /home/mehul/elec555_ws/build/peripherals/rviz/imu_view.rviz -> /home/mehul/elec555_ws/install/peripherals/share/peripherals/rviz
+[2.112s] Invoked command in '/home/mehul/elec555_ws/build/peripherals' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data

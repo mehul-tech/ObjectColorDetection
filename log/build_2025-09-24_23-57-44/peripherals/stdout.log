@@ -1,0 +1,17 @@
+running develop
+running egg_info
+writing peripherals.egg-info/PKG-INFO
+writing dependency_links to peripherals.egg-info/dependency_links.txt
+writing entry points to peripherals.egg-info/entry_points.txt
+writing requirements to peripherals.egg-info/requires.txt
+writing top-level names to peripherals.egg-info/top_level.txt
+reading manifest file 'peripherals.egg-info/SOURCES.txt'
+writing manifest file 'peripherals.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages/peripherals.egg-link (link to .)
+Installing joystick_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+Installing teleop_key_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+Installing tf_broadcaster_imu script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+
+Installed /home/mehul/elec555_ws/build/peripherals
+running symlink_data

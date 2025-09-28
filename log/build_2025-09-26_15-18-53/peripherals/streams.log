@@ -1,0 +1,19 @@
+[1.647s] Invoking command in '/home/mehul/elec555_ws/build/peripherals': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data
+[1.818s] running develop
+[1.949s] running egg_info
+[1.949s] writing peripherals.egg-info/PKG-INFO
+[1.950s] writing dependency_links to peripherals.egg-info/dependency_links.txt
+[1.950s] writing entry points to peripherals.egg-info/entry_points.txt
+[1.950s] writing requirements to peripherals.egg-info/requires.txt
+[1.950s] writing top-level names to peripherals.egg-info/top_level.txt
+[1.953s] reading manifest file 'peripherals.egg-info/SOURCES.txt'
+[1.954s] writing manifest file 'peripherals.egg-info/SOURCES.txt'
+[1.955s] running build_ext
+[1.955s] Creating /home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages/peripherals.egg-link (link to .)
+[1.956s] Installing joystick_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[1.956s] Installing teleop_key_control script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[1.956s] Installing tf_broadcaster_imu script to /home/mehul/elec555_ws/install/peripherals/lib/peripherals
+[1.956s] 
+[1.956s] Installed /home/mehul/elec555_ws/build/peripherals
+[1.956s] running symlink_data
+[2.062s] Invoked command in '/home/mehul/elec555_ws/build/peripherals' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data

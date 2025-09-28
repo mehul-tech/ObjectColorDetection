@@ -1,0 +1,18 @@
+[1.733s] Invoking command in '/home/mehul/elec555_ws/build/controller': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data
+[1.910s] running develop
+[2.045s] running egg_info
+[2.045s] writing controller.egg-info/PKG-INFO
+[2.045s] writing dependency_links to controller.egg-info/dependency_links.txt
+[2.045s] writing entry points to controller.egg-info/entry_points.txt
+[2.045s] writing requirements to controller.egg-info/requires.txt
+[2.046s] writing top-level names to controller.egg-info/top_level.txt
+[2.047s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[2.048s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.049s] running build_ext
+[2.049s] Creating /home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[2.050s] Installing init_pose script to /home/mehul/elec555_ws/install/controller/lib/controller
+[2.050s] Installing odom_publisher script to /home/mehul/elec555_ws/install/controller/lib/controller
+[2.050s] 
+[2.050s] Installed /home/mehul/elec555_ws/build/controller
+[2.050s] running symlink_data
+[2.140s] Invoked command in '/home/mehul/elec555_ws/build/controller' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data

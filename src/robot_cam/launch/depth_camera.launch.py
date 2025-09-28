@@ -1,0 +1,78 @@
+# 真正“驱动相机”
+
+import os
+from ament_index_python.packages import get_package_share_directory
+
+from launch_ros.actions import Node
+from launch import LaunchDescription, LaunchService
+from launch.substitutions import LaunchConfiguration
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, GroupAction
+from launch.launch_description_sources import PythonLaunchDescriptionSource
+
+def generate_launch_description():
+    compiled = os.environ.get('need_compile', 'False')
+    camera_type = os.environ.get('DEPTH_CAMERA_TYPE', 'usb_cam')
+    
+    pkg_share   = get_package_share_directory("robot_cam")
+    contrib_dir = os.path.join(pkg_share, 'launch')
+    
+    depth_camera_name_arg = DeclareLaunchArgument(
+        'depth_camera_name',
+        default_value='depth_cam'
+    )
+
+    tf_prefix_arg = DeclareLaunchArgument(
+        'tf_prefix',
+        default_value=''
+    )
+
+    app_arg = DeclareLaunchArgument(
+        'app',
+        default_value='false'
+    )
+
+    if camera_type == 'ascamera':
+        camera_launch = IncludeLaunchDescription(
+            PythonLaunchDescriptionSource(os.path.join(contrib_dir, 'include', 'ascamera.launch.py')),
+            launch_arguments={
+                'camera_name': LaunchConfiguration('depth_camera_name'),
+                'tf_prefix': LaunchConfiguration('tf_prefix'),
+            }.items())
+    else:
+        camera_launch = GroupAction([
+            IncludeLaunchDescription(
+                PythonLaunchDescriptionSource(
+                    os.path.join(contrib_dir, 'usb_cam.launch.py'))
+                ),
+
+            Node(
+                package='tf2_ros',
+                executable='static_transform_publisher',
+                name="depth_cam_base_link",
+                arguments=[
+                    '--x', '0',
+                    '--y', '0',
+                    '--z', '0',
+                    '--qx', '-1.5707963267948966',
+                    '--qy', '0',
+                    '--qz', '-1.5707963267948966',
+                    '--qw', '0',
+                    '--frame-id', 'ascamera_camera_link_0',
+                    '--child-frame-id', 'depth_cam_color_frame'
+                ]
+            ),
+        ])
+
+    return LaunchDescription([
+        depth_camera_name_arg,
+        tf_prefix_arg,
+        app_arg,
+        camera_launch
+    ])
+
+if __name__ == '__main__':
+    ld = generate_launch_description()
+
+    ls = LaunchService()
+    ls.include_launch_description(ld)
+    ls.run()

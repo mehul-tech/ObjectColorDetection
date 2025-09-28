@@ -1,0 +1,16 @@
+[1.576s] Invoking command in '/home/mehul/elec555_ws/build/sdk': PYTHONPATH=/home/mehul/elec555_ws/build/sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/sdk/build --no-deps symlink_data
+[1.745s] running develop
+[1.877s] running egg_info
+[1.877s] writing sdk.egg-info/PKG-INFO
+[1.878s] writing dependency_links to sdk.egg-info/dependency_links.txt
+[1.878s] writing entry points to sdk.egg-info/entry_points.txt
+[1.878s] writing requirements to sdk.egg-info/requires.txt
+[1.878s] writing top-level names to sdk.egg-info/top_level.txt
+[1.879s] reading manifest file 'sdk.egg-info/SOURCES.txt'
+[1.880s] writing manifest file 'sdk.egg-info/SOURCES.txt'
+[1.881s] running build_ext
+[1.881s] Creating /home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages/sdk.egg-link (link to .)
+[1.882s] 
+[1.882s] Installed /home/mehul/elec555_ws/build/sdk
+[1.882s] running symlink_data
+[1.987s] Invoked command in '/home/mehul/elec555_ws/build/sdk' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/sdk/build --no-deps symlink_data

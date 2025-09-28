@@ -1,0 +1,29 @@
+{
+  "package_name": "interfaces",
+  "non_idl_tuples": [
+    "/home/mehul/elec555_ws/src/interfaces:msg/ColorDetect.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/ColorInfo.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/ColorsInfo.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/LineROI.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/ObjectInfo.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/ObjectsInfo.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/PixelPosition.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/Point2D.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/Points.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/Pose2D.msg",
+    "/home/mehul/elec555_ws/src/interfaces:msg/ROI.msg",
+    "/home/mehul/elec555_ws/src/interfaces:srv/GetPose.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetCircleROI.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetColorDetectParam.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetColorRGBA.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetFloat64List.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetFloat64.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetInt64.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetLineROI.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetPoint.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetPose2D.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetPose.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetStringList.srv",
+    "/home/mehul/elec555_ws/src/interfaces:srv/SetString.srv"
+  ]
+}

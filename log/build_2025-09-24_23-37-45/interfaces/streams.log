@@ -1,0 +1,834 @@
+[0.041s] Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/interfaces
+[1.014s] -- The C compiler identification is GNU 11.4.0
+[1.014s] -- The CXX compiler identification is GNU 11.4.0
+[1.014s] -- Detecting C compiler ABI info
+[1.014s] -- Detecting C compiler ABI info - done
+[1.014s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.014s] -- Detecting C compile features
+[1.014s] -- Detecting C compile features - done
+[1.014s] -- Detecting CXX compiler ABI info
+[1.015s] -- Detecting CXX compiler ABI info - done
+[1.015s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.015s] -- Detecting CXX compile features
+[1.015s] -- Detecting CXX compile features - done
+[1.015s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.016s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.016s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.016s] -- Found std_msgs: 4.9.0 (/opt/ros/humble/share/std_msgs/cmake)
+[1.016s] -- Found rosidl_generator_c: 3.1.7 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.016s] -- Found rosidl_adapter: 3.1.7 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.016s] -- Found rosidl_generator_cpp: 3.1.7 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.017s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.017s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.017s] -- Found std_srvs: 4.9.0 (/opt/ros/humble/share/std_srvs/cmake)
+[1.017s] -- Found geometry_msgs: 4.9.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.017s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.017s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.264s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.418s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.438s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[1.440s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.466s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[1.467s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.467s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.467s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.489s] -- Found PythonExtra: .so  
+[1.562s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.587s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.591s] -- Added test 'lint_cmake' to check CMake code style
+[1.593s] -- Added test 'xmllint' to check XML markup files
+[1.596s] -- Configuring done
+[1.672s] -- Generating done
+[1.684s] -- Build files have been written to: /home/mehul/elec555_ws/build/interfaces
+[1.711s] Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/interfaces
+[1.713s] Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/interfaces -- -j16 -l16
+[1.756s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[1.769s] [  1%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[1.775s] [  1%] Built target ament_cmake_python_symlink_interfaces
+[2.005s] running egg_info
+[2.006s] creating interfaces.egg-info
+[2.006s] writing interfaces.egg-info/PKG-INFO
+[2.006s] writing dependency_links to interfaces.egg-info/dependency_links.txt
+[2.006s] writing top-level names to interfaces.egg-info/top_level.txt
+[2.007s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.012s] reading manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.013s] writing manifest file 'interfaces.egg-info/SOURCES.txt'
+[2.089s] [  1%] Built target ament_cmake_python_build_interfaces_egg
+[2.892s] [  1%] Built target interfaces__cpp
+[2.903s] [  2%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[2.903s] [  3%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[2.903s] [  4%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[2.941s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/objects_info__functions.c.o[0m
+[2.941s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_detect__functions.c.o[0m
+[2.941s] [  5%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/object_info__functions.c.o[0m
+[2.941s] [  6%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/color_info__functions.c.o[0m
+[2.941s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/point2_d__functions.c.o[0m
+[2.942s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pixel_position__functions.c.o[0m
+[2.942s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/colors_info__functions.c.o[0m
+[2.942s] [  7%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/points__functions.c.o[0m
+[2.942s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/pose2_d__functions.c.o[0m
+[2.943s] [  8%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/roi__functions.c.o[0m
+[2.944s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/msg/detail/line_roi__functions.c.o[0m
+[2.948s] [  9%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/get_pose__functions.c.o[0m
+[2.951s] [ 10%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_circle_roi__functions.c.o[0m
+[3.000s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64__functions.c.o[0m
+[3.000s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_rgba__functions.c.o[0m
+[3.000s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_float64_list__functions.c.o[0m
+[3.001s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_color_detect_param__functions.c.o[0m
+[3.003s] [ 12%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_int64__functions.c.o[0m
+[3.004s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_line_roi__functions.c.o[0m
+[3.004s] [ 13%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_point__functions.c.o[0m
+[3.004s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose2_d__functions.c.o[0m
+[3.006s] [ 14%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_pose__functions.c.o[0m
+[3.010s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string_list__functions.c.o[0m
+[3.011s] [ 15%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_c.dir/rosidl_generator_c/interfaces/srv/detail/set_string__functions.c.o[0m
+[3.069s] [ 16%] [32m[1mLinking C shared library libinterfaces__rosidl_generator_c.so[0m
+[3.106s] [ 16%] Built target interfaces__rosidl_generator_c
+[3.114s] [ 19%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.114s] [ 19%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.114s] [ 19%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.638s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/object_info__type_support.cpp.o[0m
+[3.638s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/colors_info__type_support.cpp.o[0m
+[3.638s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/line_roi__type_support.cpp.o[0m
+[3.638s] [ 20%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/color_detect__type_support.cpp.o[0m
+[3.638s] [ 21%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/color_info__type_support.cpp.o[0m
+[3.645s] [ 21%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/objects_info__type_support.cpp.o[0m
+[3.653s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/pixel_position__type_support.cpp.o[0m
+[3.653s] [ 22%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/point2_d__type_support.cpp.o[0m
+[3.653s] [ 23%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/points__type_support.cpp.o[0m
+[3.665s] [ 23%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/pose2_d__type_support.cpp.o[0m
+[3.668s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/msg/roi__type_support.cpp.o[0m
+[4.186s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/get_pose__type_support.cpp.o[0m
+[4.187s] [ 24%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_color_detect_param__type_support.cpp.o[0m
+[4.194s] [ 25%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_circle_roi__type_support.cpp.o[0m
+[4.208s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_color_rgba__type_support.cpp.o[0m
+[4.223s] [ 26%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_float64_list__type_support.cpp.o[0m
+[4.249s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_float64__type_support.cpp.o[0m
+[4.267s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_int64__type_support.cpp.o[0m
+[4.274s] [ 27%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_line_roi__type_support.cpp.o[0m
+[4.278s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_point__type_support.cpp.o[0m
+[4.282s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_pose2_d__type_support.cpp.o[0m
+[4.286s] [ 28%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/color_detect__type_support.cpp.o[0m
+[4.329s] [ 29%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/color_info__type_support.cpp.o[0m
+[4.377s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_pose__type_support.cpp.o[0m
+[4.408s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/colors_info__type_support.cpp.o[0m
+[4.463s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/line_roi__type_support.cpp.o[0m
+[4.534s] [ 30%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/objects_info__type_support.cpp.o[0m
+[4.534s] [ 31%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/object_info__type_support.cpp.o[0m
+[4.602s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/pixel_position__type_support.cpp.o[0m
+[4.605s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_string_list__type_support.cpp.o[0m
+[4.648s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/point2_d__type_support.cpp.o[0m
+[4.655s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/color_detect__type_support.cpp.o[0m
+[4.693s] [ 32%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/colors_info__type_support.cpp.o[0m
+[4.693s] [ 33%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/color_info__type_support.cpp.o[0m
+[4.718s] [ 34%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/points__type_support.cpp.o[0m
+[4.727s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/interfaces/srv/set_string__type_support.cpp.o[0m
+[4.738s] [ 35%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/pose2_d__type_support.cpp.o[0m
+[4.758s] [ 36%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/line_roi__type_support.cpp.o[0m
+[4.776s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/msg/roi__type_support.cpp.o[0m
+[4.793s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/object_info__type_support.cpp.o[0m
+[4.806s] [ 37%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/get_pose__type_support.cpp.o[0m
+[4.830s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/objects_info__type_support.cpp.o[0m
+[4.850s] [ 38%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pixel_position__type_support.cpp.o[0m
+[4.857s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_circle_roi__type_support.cpp.o[0m
+[4.870s] [ 39%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_color_detect_param__type_support.cpp.o[0m
+[4.890s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/point2_d__type_support.cpp.o[0m
+[4.929s] [ 40%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/points__type_support.cpp.o[0m
+[4.931s] [ 41%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_color_rgba__type_support.cpp.o[0m
+[4.951s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/pose2_d__type_support.cpp.o[0m
+[5.033s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_float64_list__type_support.cpp.o[0m
+[5.048s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/msg/detail/roi__type_support.cpp.o[0m
+[5.076s] [ 42%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/color_detect__type_support.cpp.o[0m
+[5.132s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_float64__type_support.cpp.o[0m
+[5.216s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_int64__type_support.cpp.o[0m
+[5.273s] [ 43%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_cpp.so[0m
+[5.307s] [ 43%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_line_roi__type_support.cpp.o[0m
+[5.381s] [ 44%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_point__type_support.cpp.o[0m
+[5.391s] [ 44%] Built target interfaces__rosidl_typesupport_cpp
+[5.433s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/color_info__type_support.cpp.o[0m
+[5.457s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_pose2_d__type_support.cpp.o[0m
+[5.464s] [ 45%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/get_pose__type_support.cpp.o[0m
+[5.485s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_circle_roi__type_support.cpp.o[0m
+[5.526s] [ 46%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/colors_info__type_support.cpp.o[0m
+[5.529s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_pose__type_support.cpp.o[0m
+[5.554s] [ 47%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_string_list__type_support.cpp.o[0m
+[5.568s] [ 47%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/color_detect__type_support.c.o[0m
+[5.591s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/interfaces/srv/set_string__type_support.cpp.o[0m
+[5.603s] [ 48%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_color_detect_param__type_support.cpp.o[0m
+[5.610s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/color_info__type_support.c.o[0m
+[5.614s] [ 49%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/colors_info__type_support.c.o[0m
+[5.632s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/line_roi__type_support.c.o[0m
+[5.647s] [ 50%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/object_info__type_support.c.o[0m
+[5.660s] [ 50%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_c.so[0m
+[5.679s] [ 51%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/objects_info__type_support.c.o[0m
+[5.693s] [ 52%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/line_roi__type_support.cpp.o[0m
+[5.713s] [ 52%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/pixel_position__type_support.c.o[0m
+[5.738s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/object_info__type_support.cpp.o[0m
+[5.741s] [ 53%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/objects_info__type_support.cpp.o[0m
+[5.752s] [ 54%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_color_rgba__type_support.cpp.o[0m
+[5.762s] [ 55%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/point2_d__type_support.c.o[0m
+[5.765s] [ 55%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/pixel_position__type_support.cpp.o[0m
+[5.774s] [ 55%] Built target interfaces__rosidl_typesupport_c
+[5.796s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_float64__type_support.cpp.o[0m
+[5.802s] [ 56%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_float64_list__type_support.cpp.o[0m
+[5.853s] [ 57%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/pose2_d__type_support.c.o[0m
+[5.854s] [ 57%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/points__type_support.c.o[0m
+[5.895s] [ 57%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/color_detect__type_support_c.cpp.o[0m
+[5.901s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/color_info__type_support_c.cpp.o[0m
+[5.927s] [ 58%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/colors_info__type_support_c.cpp.o[0m
+[5.943s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/msg/detail/roi__type_support.c.o[0m
+[6.029s] [ 58%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/get_pose__type_support.c.o[0m
+[6.127s] [ 59%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_circle_roi__type_support.c.o[0m
+[6.154s] [ 60%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/line_roi__type_support_c.cpp.o[0m
+[6.216s] [ 60%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_color_detect_param__type_support.c.o[0m
+[6.255s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_color_rgba__type_support.c.o[0m
+[6.309s] [ 61%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/object_info__type_support_c.cpp.o[0m
+[6.366s] [ 61%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_float64_list__type_support.c.o[0m
+[6.392s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/objects_info__type_support_c.cpp.o[0m
+[6.397s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/point2_d__type_support.cpp.o[0m
+[6.398s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/pixel_position__type_support_c.cpp.o[0m
+[6.405s] [ 62%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_int64__type_support.cpp.o[0m
+[6.427s] [ 63%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_float64__type_support.c.o[0m
+[6.448s] [ 63%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_int64__type_support.c.o[0m
+[6.454s] [ 64%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_line_roi__type_support.cpp.o[0m
+[6.500s] [ 65%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_line_roi__type_support.c.o[0m
+[6.522s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/points__type_support.cpp.o[0m
+[6.534s] [ 66%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/point2_d__type_support_c.cpp.o[0m
+[6.570s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/points__type_support_c.cpp.o[0m
+[6.571s] [ 67%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_point__type_support.c.o[0m
+[6.585s] [ 67%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/pose2_d__type_support.cpp.o[0m
+[6.592s] [ 68%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/dds_fastrtps/roi__type_support.cpp.o[0m
+[6.654s] [ 69%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_pose2_d__type_support.c.o[0m
+[6.661s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/pose2_d__type_support_c.cpp.o[0m
+[6.670s] [ 69%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/get_pose__type_support.cpp.o[0m
+[6.699s] [ 70%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/roi__type_support_c.cpp.o[0m
+[6.737s] [ 70%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_pose__type_support.c.o[0m
+[6.851s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_point__type_support.cpp.o[0m
+[6.852s] [ 71%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_string_list__type_support.c.o[0m
+[6.875s] [ 71%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/get_pose__type_support_c.cpp.o[0m
+[6.960s] [ 71%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/interfaces/srv/detail/set_string__type_support.c.o[0m
+[6.963s] [ 72%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_circle_roi__type_support.cpp.o[0m
+[7.019s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_circle_roi__type_support_c.cpp.o[0m
+[7.031s] [ 73%] [32m[1mLinking C shared library libinterfaces__rosidl_typesupport_introspection_c.so[0m
+[7.127s] [ 73%] Built target interfaces__rosidl_typesupport_introspection_c
+[7.150s] [ 73%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_color_detect_param__type_support_c.cpp.o[0m
+[7.183s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_color_rgba__type_support_c.cpp.o[0m
+[7.204s] [ 74%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_color_detect_param__type_support.cpp.o[0m
+[7.265s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_color_rgba__type_support.cpp.o[0m
+[7.303s] [ 75%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_float64_list__type_support.cpp.o[0m
+[7.317s] [ 76%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_float64__type_support.cpp.o[0m
+[7.335s] [ 76%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_int64__type_support.cpp.o[0m
+[7.369s] [ 77%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_line_roi__type_support.cpp.o[0m
+[7.402s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_pose2_d__type_support.cpp.o[0m
+[7.424s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_point__type_support.cpp.o[0m
+[7.439s] [ 78%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_pose__type_support.cpp.o[0m
+[7.495s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_string_list__type_support.cpp.o[0m
+[7.578s] [ 79%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_float64_list__type_support_c.cpp.o[0m
+[7.651s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_pose2_d__type_support.cpp.o[0m
+[7.657s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_pose__type_support.cpp.o[0m
+[7.702s] [ 80%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/interfaces/srv/detail/set_string__type_support.cpp.o[0m
+[7.803s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_float64__type_support_c.cpp.o[0m
+[7.835s] [ 81%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_int64__type_support_c.cpp.o[0m
+[7.885s] [ 82%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_line_roi__type_support_c.cpp.o[0m
+[7.885s] [ 82%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_point__type_support_c.cpp.o[0m
+[7.911s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_pose2_d__type_support_c.cpp.o[0m
+[7.914s] [ 83%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_string_list__type_support.cpp.o[0m
+[7.969s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/interfaces/srv/detail/dds_fastrtps/set_string__type_support.cpp.o[0m
+[8.035s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_pose__type_support_c.cpp.o[0m
+[8.040s] [ 84%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_string_list__type_support_c.cpp.o[0m
+[8.061s] [ 85%] [32mBuilding CXX object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/interfaces/srv/detail/set_string__type_support_c.cpp.o[0m
+[8.214s] [ 86%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_introspection_cpp.so[0m
+[8.294s] [ 86%] Built target interfaces__rosidl_typesupport_introspection_cpp
+[8.354s] [ 86%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_c.so[0m
+[8.361s] [ 86%] [32m[1mLinking CXX shared library libinterfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[8.415s] [ 86%] Built target interfaces__rosidl_typesupport_fastrtps_c
+[8.430s] [ 86%] Built target interfaces__rosidl_typesupport_fastrtps_cpp
+[8.448s] [ 86%] Built target interfaces
+[8.464s] [ 86%] [34m[1mGenerating Python code for ROS interfaces[0m
+[10.108s] [ 86%] Built target interfaces__py
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_pixel_position_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_objects_info_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_color_detect_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_color_info_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_object_info_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_line_roi_s.c.o[0m
+[10.129s] [ 88%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_point2_d_s.c.o[0m
+[10.129s] [ 89%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_points_s.c.o[0m
+[10.129s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_roi_s.c.o[0m
+[10.129s] [ 90%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_get_pose_s.c.o[0m
+[10.129s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_circle_roi_s.c.o[0m
+[10.129s] [ 91%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_color_detect_param_s.c.o[0m
+[10.129s] [ 92%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_color_rgba_s.c.o[0m
+[10.129s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_colors_info_s.c.o[0m
+[10.130s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/msg/_pose2_d_s.c.o[0m
+[10.130s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_float64_list_s.c.o[0m
+[10.226s] [ 93%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_float64_s.c.o[0m
+[10.227s] [ 94%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_int64_s.c.o[0m
+[10.228s] [ 94%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_line_roi_s.c.o[0m
+[10.228s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_pose_s.c.o[0m
+[10.229s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_pose2_d_s.c.o[0m
+[10.229s] [ 95%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_string_list_s.c.o[0m
+[10.230s] [ 96%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_point_s.c.o[0m
+[10.233s] [ 97%] [32mBuilding C object CMakeFiles/interfaces__rosidl_generator_py.dir/rosidl_generator_py/interfaces/srv/_set_string_s.c.o[0m
+[10.317s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/libinterfaces__rosidl_generator_py.so[0m
+[10.352s] [ 97%] Built target interfaces__rosidl_generator_py
+[10.366s] [ 98%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[10.366s] [ 99%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[10.366s] [100%] [32mBuilding C object CMakeFiles/interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[10.494s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.494s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.496s] [100%] [32m[1mLinking C shared library rosidl_generator_py/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[10.525s] [100%] Built target interfaces__rosidl_typesupport_fastrtps_c__pyext
+[10.525s] [100%] Built target interfaces__rosidl_typesupport_c__pyext
+[10.527s] [100%] Built target interfaces__rosidl_typesupport_introspection_c__pyext
+[10.538s] Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/interfaces -- -j16 -l16
+[10.539s] Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/interfaces
+[10.545s] -- Install configuration: ""
+[10.546s] -- Execute custom install script
+[10.546s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/ament_index/resource_index/rosidl_interfaces/interfaces
+[10.555s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/color_detect.h
+[10.561s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/color_info.h
+[10.568s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/colors_info.h
+[10.576s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__functions.h
+[10.583s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.h
+[10.589s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.h
+[10.595s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__functions.h
+[10.602s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.h
+[10.609s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.h
+[10.617s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__functions.h
+[10.622s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.h
+[10.630s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.h
+[10.637s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__functions.h
+[10.644s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.h
+[10.652s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.h
+[10.660s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__functions.h
+[10.668s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.h
+[10.677s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.h
+[10.683s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__functions.h
+[10.689s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.h
+[10.695s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.h
+[10.702s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__functions.h
+[10.709s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.h
+[10.717s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.h
+[10.724s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__functions.h
+[10.731s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.h
+[10.736s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.h
+[10.743s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__functions.h
+[10.751s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.h
+[10.757s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.h
+[10.764s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__functions.h
+[10.771s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.h
+[10.777s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.h
+[10.784s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__functions.h
+[10.791s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.h
+[10.798s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.h
+[10.804s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/line_roi.h
+[10.811s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/object_info.h
+[10.818s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/objects_info.h
+[10.824s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/pixel_position.h
+[10.830s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/point2_d.h
+[10.837s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/points.h
+[10.843s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/pose2_d.h
+[10.849s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/roi.h
+[10.856s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_c__visibility_control.h
+[10.863s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__functions.h
+[10.870s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.h
+[10.876s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.h
+[10.882s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__functions.h
+[10.889s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.h
+[10.897s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.h
+[10.904s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__functions.h
+[10.912s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.h
+[10.918s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.h
+[10.925s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__functions.h
+[10.932s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.h
+[10.937s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.h
+[10.943s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__functions.h
+[10.951s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.h
+[10.957s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.h
+[10.962s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__functions.h
+[10.970s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.h
+[10.977s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.h
+[10.984s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__functions.h
+[10.992s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.h
+[10.999s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.h
+[11.007s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__functions.h
+[11.014s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.h
+[11.023s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.h
+[11.029s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__functions.h
+[11.036s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.h
+[11.042s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.h
+[11.048s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__functions.h
+[11.055s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.h
+[11.062s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.h
+[11.069s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__functions.h
+[11.076s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.h
+[11.084s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.h
+[11.091s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__functions.h
+[11.098s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.h
+[11.105s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.h
+[11.111s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__functions.h
+[11.118s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.h
+[11.125s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.h
+[11.132s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/get_pose.h
+[11.139s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.h
+[11.147s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.h
+[11.155s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.h
+[11.162s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64.h
+[11.169s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.h
+[11.175s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_int64.h
+[11.180s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.h
+[11.188s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_point.h
+[11.194s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose.h
+[11.202s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.h
+[11.208s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_string.h
+[11.215s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_list.h
+[11.222s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/library_path.sh
+[11.229s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/library_path.dsv
+[11.237s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_c.h
+[11.244s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_c.h
+[11.250s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_c.h
+[11.256s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_c.h
+[11.261s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_c.h
+[11.268s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_c.h
+[11.274s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_c.h
+[11.280s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_c.h
+[11.287s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_c.h
+[11.292s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_c.h
+[11.298s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_c.h
+[11.304s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[11.310s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_c.h
+[11.317s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_c.h
+[11.323s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_c.h
+[11.330s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_c.h
+[11.336s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_c.h
+[11.343s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_c.h
+[11.349s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_c.h
+[11.357s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_c.h
+[11.363s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_c.h
+[11.370s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_c.h
+[11.377s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_c.h
+[11.384s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_c.h
+[11.390s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_c.h
+[11.398s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/color_detect.hpp
+[11.404s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/color_info.hpp
+[11.410s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/colors_info.hpp
+[11.416s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__builder.hpp
+[11.422s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__struct.hpp
+[11.430s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__traits.hpp
+[11.436s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__type_support.hpp
+[11.442s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__builder.hpp
+[11.449s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__struct.hpp
+[11.456s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__traits.hpp
+[11.464s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__type_support.hpp
+[11.471s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__builder.hpp
+[11.477s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__struct.hpp
+[11.484s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__traits.hpp
+[11.491s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__type_support.hpp
+[11.497s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__builder.hpp
+[11.503s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__struct.hpp
+[11.509s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__traits.hpp
+[11.514s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__type_support.hpp
+[11.521s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__builder.hpp
+[11.527s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__struct.hpp
+[11.535s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__traits.hpp
+[11.543s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__type_support.hpp
+[11.549s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__builder.hpp
+[11.555s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__struct.hpp
+[11.562s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__traits.hpp
+[11.568s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__type_support.hpp
+[11.574s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__builder.hpp
+[11.582s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__struct.hpp
+[11.588s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__traits.hpp
+[11.595s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__type_support.hpp
+[11.601s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__builder.hpp
+[11.606s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__struct.hpp
+[11.613s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__traits.hpp
+[11.619s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__type_support.hpp
+[11.626s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__builder.hpp
+[11.634s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__struct.hpp
+[11.640s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__traits.hpp
+[11.647s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__type_support.hpp
+[11.654s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__builder.hpp
+[11.661s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__struct.hpp
+[11.668s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__traits.hpp
+[11.673s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__type_support.hpp
+[11.680s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__builder.hpp
+[11.686s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__struct.hpp
+[11.693s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__traits.hpp
+[11.700s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__type_support.hpp
+[11.706s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/line_roi.hpp
+[11.712s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/object_info.hpp
+[11.718s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/objects_info.hpp
+[11.725s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/pixel_position.hpp
+[11.732s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/point2_d.hpp
+[11.738s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/points.hpp
+[11.744s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/pose2_d.hpp
+[11.750s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/roi.hpp
+[11.757s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[11.762s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__builder.hpp
+[11.769s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__struct.hpp
+[11.777s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__traits.hpp
+[11.783s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__type_support.hpp
+[11.790s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__builder.hpp
+[11.796s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__struct.hpp
+[11.802s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__traits.hpp
+[11.807s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__type_support.hpp
+[11.815s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__builder.hpp
+[11.821s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__struct.hpp
+[11.827s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__traits.hpp
+[11.833s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__type_support.hpp
+[11.839s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__builder.hpp
+[11.845s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__struct.hpp
+[11.850s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__traits.hpp
+[11.856s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__type_support.hpp
+[11.862s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__builder.hpp
+[11.870s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__struct.hpp
+[11.877s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__traits.hpp
+[11.884s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__type_support.hpp
+[11.890s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__builder.hpp
+[11.898s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__struct.hpp
+[11.905s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__traits.hpp
+[11.911s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__type_support.hpp
+[11.917s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__builder.hpp
+[11.925s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__struct.hpp
+[11.931s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__traits.hpp
+[11.937s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__type_support.hpp
+[11.944s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__builder.hpp
+[11.951s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__struct.hpp
+[11.958s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__traits.hpp
+[11.965s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__type_support.hpp
+[11.972s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__builder.hpp
+[11.979s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__struct.hpp
+[11.986s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__traits.hpp
+[11.993s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__type_support.hpp
+[12.000s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__builder.hpp
+[12.006s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__struct.hpp
+[12.013s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__traits.hpp
+[12.020s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__type_support.hpp
+[12.025s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__builder.hpp
+[12.031s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__struct.hpp
+[12.037s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__traits.hpp
+[12.042s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__type_support.hpp
+[12.048s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__builder.hpp
+[12.054s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__struct.hpp
+[12.061s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__traits.hpp
+[12.067s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__type_support.hpp
+[12.074s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__builder.hpp
+[12.083s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__struct.hpp
+[12.090s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__traits.hpp
+[12.099s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__type_support.hpp
+[12.105s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/get_pose.hpp
+[12.114s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_circle_roi.hpp
+[12.120s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_detect_param.hpp
+[12.127s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_color_rgba.hpp
+[12.134s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64.hpp
+[12.141s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_float64_list.hpp
+[12.147s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_int64.hpp
+[12.154s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_line_roi.hpp
+[12.160s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_point.hpp
+[12.167s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose.hpp
+[12.173s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_pose2_d.hpp
+[12.181s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_string.hpp
+[12.187s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/set_string_list.hpp
+[12.195s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_cpp.hpp
+[12.201s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.207s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.214s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[12.220s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.227s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_fastrtps_cpp.hpp
+[12.234s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_fastrtps_cpp.hpp
+[12.241s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[12.249s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_fastrtps_cpp.hpp
+[12.256s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[12.262s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_fastrtps_cpp.hpp
+[12.269s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[12.277s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.287s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[12.294s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_fastrtps_cpp.hpp
+[12.300s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_fastrtps_cpp.hpp
+[12.307s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_fastrtps_cpp.hpp
+[12.314s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_fastrtps_cpp.hpp
+[12.319s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_fastrtps_cpp.hpp
+[12.326s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_fastrtps_cpp.hpp
+[12.332s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_fastrtps_cpp.hpp
+[12.338s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_fastrtps_cpp.hpp
+[12.345s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_fastrtps_cpp.hpp
+[12.354s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_fastrtps_cpp.hpp
+[12.360s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_fastrtps_cpp.hpp
+[12.368s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_c.h
+[12.374s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_c.h
+[12.382s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_c.h
+[12.388s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_c.h
+[12.395s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_c.h
+[12.403s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_c.h
+[12.411s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_c.h
+[12.418s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_c.h
+[12.425s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_c.h
+[12.433s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_c.h
+[12.440s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_c.h
+[12.448s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[12.456s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_c.h
+[12.464s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_c.h
+[12.472s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_c.h
+[12.478s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_c.h
+[12.486s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_c.h
+[12.493s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_c.h
+[12.500s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_c.h
+[12.507s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_c.h
+[12.514s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_c.h
+[12.521s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_c.h
+[12.529s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_c.h
+[12.537s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_c.h
+[12.544s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_c.h
+[12.553s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_detect__rosidl_typesupport_introspection_cpp.hpp
+[12.560s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/color_info__rosidl_typesupport_introspection_cpp.hpp
+[12.569s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/colors_info__rosidl_typesupport_introspection_cpp.hpp
+[12.577s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/line_roi__rosidl_typesupport_introspection_cpp.hpp
+[12.585s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/object_info__rosidl_typesupport_introspection_cpp.hpp
+[12.591s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/objects_info__rosidl_typesupport_introspection_cpp.hpp
+[12.600s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pixel_position__rosidl_typesupport_introspection_cpp.hpp
+[12.607s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/point2_d__rosidl_typesupport_introspection_cpp.hpp
+[12.613s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/points__rosidl_typesupport_introspection_cpp.hpp
+[12.619s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[12.626s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/msg/detail/roi__rosidl_typesupport_introspection_cpp.hpp
+[12.633s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/get_pose__rosidl_typesupport_introspection_cpp.hpp
+[12.640s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_circle_roi__rosidl_typesupport_introspection_cpp.hpp
+[12.648s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_detect_param__rosidl_typesupport_introspection_cpp.hpp
+[12.654s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_color_rgba__rosidl_typesupport_introspection_cpp.hpp
+[12.661s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64__rosidl_typesupport_introspection_cpp.hpp
+[12.668s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_float64_list__rosidl_typesupport_introspection_cpp.hpp
+[12.676s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_int64__rosidl_typesupport_introspection_cpp.hpp
+[12.683s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_line_roi__rosidl_typesupport_introspection_cpp.hpp
+[12.691s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_point__rosidl_typesupport_introspection_cpp.hpp
+[12.698s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose2_d__rosidl_typesupport_introspection_cpp.hpp
+[12.706s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_pose__rosidl_typesupport_introspection_cpp.hpp
+[12.713s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string__rosidl_typesupport_introspection_cpp.hpp
+[12.722s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/include/interfaces/interfaces/srv/detail/set_string_list__rosidl_typesupport_introspection_cpp.hpp
+[12.730s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/pythonpath.sh
+[12.737s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/pythonpath.dsv
+[12.745s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[12.752s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[12.758s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[12.764s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[12.774s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py
+[12.780s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_c.c
+[12.788s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[12.796s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[12.803s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[12.811s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[12.817s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[12.823s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/libinterfaces__rosidl_generator_py.so
+[12.830s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py
+[12.837s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py
+[12.844s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect_s.c
+[12.852s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py
+[12.859s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info_s.c
+[12.866s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py
+[12.873s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info_s.c
+[12.880s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py
+[12.888s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi_s.c
+[12.895s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py
+[12.903s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info_s.c
+[12.911s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py
+[12.919s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info_s.c
+[12.927s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py
+[12.934s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position_s.c
+[12.940s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py
+[12.947s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d_s.c
+[12.953s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py
+[12.961s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points_s.c
+[12.967s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py
+[12.974s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d_s.c
+[12.980s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py
+[12.990s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi_s.c
+[12.998s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py
+[13.004s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py
+[13.013s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose_s.c
+[13.020s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py
+[13.026s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi_s.c
+[13.032s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py
+[13.039s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param_s.c
+[13.045s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py
+[13.052s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba_s.c
+[13.060s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py
+[13.066s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py
+[13.075s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list_s.c
+[13.082s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_s.c
+[13.088s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py
+[13.093s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64_s.c
+[13.101s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py
+[13.108s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi_s.c
+[13.114s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py
+[13.121s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point_s.c
+[13.127s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py
+[13.134s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py
+[13.139s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d_s.c
+[13.147s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose_s.c
+[13.154s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py
+[13.161s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py
+[13.168s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list_s.c
+[13.176s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_s.c
+[13.183s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[13.183s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[13.183s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[13.183s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorDetect.idl
+[13.191s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorInfo.idl
+[13.197s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorsInfo.idl
+[13.205s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/LineROI.idl
+[13.212s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ObjectInfo.idl
+[13.218s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ObjectsInfo.idl
+[13.225s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/PixelPosition.idl
+[13.232s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Point2D.idl
+[13.240s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Points.idl
+[13.247s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Pose2D.idl
+[13.254s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ROI.idl
+[13.260s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/GetPose.idl
+[13.266s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetCircleROI.idl
+[13.273s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam.idl
+[13.279s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorRGBA.idl
+[13.285s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64List.idl
+[13.294s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64.idl
+[13.302s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetInt64.idl
+[13.309s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetLineROI.idl
+[13.317s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPoint.idl
+[13.324s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose2D.idl
+[13.330s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose.idl
+[13.339s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetStringList.idl
+[13.345s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetString.idl
+[13.352s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorDetect.msg
+[13.359s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorInfo.msg
+[13.365s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ColorsInfo.msg
+[13.373s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/LineROI.msg
+[13.379s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ObjectInfo.msg
+[13.388s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ObjectsInfo.msg
+[13.394s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/PixelPosition.msg
+[13.403s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Point2D.msg
+[13.410s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Points.msg
+[13.418s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/Pose2D.msg
+[13.425s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/msg/ROI.msg
+[13.434s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/GetPose.srv
+[13.442s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/GetPose_Request.msg
+[13.448s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/GetPose_Response.msg
+[13.454s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetCircleROI.srv
+[13.462s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetCircleROI_Request.msg
+[13.469s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetCircleROI_Response.msg
+[13.475s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam.srv
+[13.482s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam_Request.msg
+[13.489s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorDetectParam_Response.msg
+[13.498s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorRGBA.srv
+[13.505s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorRGBA_Request.msg
+[13.512s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetColorRGBA_Response.msg
+[13.518s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64List.srv
+[13.525s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64List_Request.msg
+[13.532s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64List_Response.msg
+[13.539s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64.srv
+[13.544s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64_Request.msg
+[13.550s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetFloat64_Response.msg
+[13.557s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetInt64.srv
+[13.564s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetInt64_Request.msg
+[13.571s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetInt64_Response.msg
+[13.578s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetLineROI.srv
+[13.585s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetLineROI_Request.msg
+[13.591s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetLineROI_Response.msg
+[13.599s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPoint.srv
+[13.607s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPoint_Request.msg
+[13.613s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPoint_Response.msg
+[13.620s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose2D.srv
+[13.629s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose2D_Request.msg
+[13.636s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose2D_Response.msg
+[13.643s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose.srv
+[13.651s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose_Request.msg
+[13.659s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetPose_Response.msg
+[13.667s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetStringList.srv
+[13.674s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetStringList_Request.msg
+[13.680s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetStringList_Response.msg
+[13.687s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetString.srv
+[13.693s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetString_Request.msg
+[13.703s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/srv/SetString_Response.msg
+[13.710s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/ament_index/resource_index/package_run_dependencies/interfaces
+[13.717s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/ament_index/resource_index/parent_prefix_path/interfaces
+[13.724s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.sh
+[13.731s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/ament_prefix_path.dsv
+[13.737s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/path.sh
+[13.743s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/environment/path.dsv
+[13.749s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/local_setup.bash
+[13.758s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/local_setup.sh
+[13.765s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/local_setup.zsh
+[13.773s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/local_setup.dsv
+[13.779s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/package.dsv
+[13.785s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/ament_index/resource_index/packages/interfaces
+[13.791s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake-extras.cmake
+[13.800s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[13.807s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[13.815s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[13.823s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[13.831s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[13.839s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[13.846s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfacesConfig.cmake
+[13.853s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfacesConfig-version.cmake
+[13.860s] -- Symlinking: /home/mehul/elec555_ws/install/interfaces/share/interfaces/package.xml
+[13.867s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so
+[13.867s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_generator_c.so" to ""
+[13.867s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so
+[13.867s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[13.867s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so
+[13.868s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[13.868s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so
+[13.868s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_c.so" to ""
+[13.868s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so
+[13.868s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_c.so" to ""
+[13.868s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so
+[13.869s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[13.869s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so
+[13.869s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_typesupport_cpp.so" to ""
+[13.907s] Listing '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/__init__.py'...
+[13.907s] Listing '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/__init__.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_detect.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_color_info.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_colors_info.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_line_roi.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_object_info.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_objects_info.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pixel_position.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_point2_d.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_points.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_pose2_d.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/msg/_roi.py'...
+[13.907s] Listing '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/__init__.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_get_pose.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_circle_roi.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_detect_param.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_color_rgba.py'...
+[13.907s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_float64_list.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_int64.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_line_roi.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_point.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_pose2_d.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string.py'...
+[13.908s] Compiling '/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages/interfaces/srv/_set_string_list.py'...
+[13.909s] -- Installing: /home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so
+[13.909s] -- Set runtime path of "/home/mehul/elec555_ws/install/interfaces/lib/libinterfaces__rosidl_generator_py.so" to ""
+[13.909s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_cppExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[13.910s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[13.911s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[13.911s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport.cmake
+[13.911s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[13.911s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport.cmake
+[13.911s] -- Installing: /home/mehul/elec555_ws/install/interfaces/share/interfaces/cmake/export_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[13.914s] Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/interfaces

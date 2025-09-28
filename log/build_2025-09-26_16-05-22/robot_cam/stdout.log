@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing robot_cam.egg-info/PKG-INFO
+writing dependency_links to robot_cam.egg-info/dependency_links.txt
+writing entry points to robot_cam.egg-info/entry_points.txt
+writing requirements to robot_cam.egg-info/requires.txt
+writing top-level names to robot_cam.egg-info/top_level.txt
+reading manifest file 'robot_cam.egg-info/SOURCES.txt'
+writing manifest file 'robot_cam.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages/robot-cam.egg-link (link to .)
+Installing color_detect script to /home/mehul/elec555_ws/install/robot_cam/lib/robot_cam
+
+Installed /home/mehul/elec555_ws/build/robot_cam
+running symlink_data

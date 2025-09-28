@@ -1,0 +1,17 @@
+[0.545s] Invoking command in '/home/mehul/elec555_ws/build/robot_cam': AMENT_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mehul/elec555_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul/elec555_ws/build/robot_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages:/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/robot_cam/build --no-deps symlink_data
+[0.723s] running develop
+[0.818s] running egg_info
+[0.819s] writing robot_cam.egg-info/PKG-INFO
+[0.819s] writing dependency_links to robot_cam.egg-info/dependency_links.txt
+[0.819s] writing entry points to robot_cam.egg-info/entry_points.txt
+[0.819s] writing requirements to robot_cam.egg-info/requires.txt
+[0.819s] writing top-level names to robot_cam.egg-info/top_level.txt
+[0.820s] reading manifest file 'robot_cam.egg-info/SOURCES.txt'
+[0.820s] writing manifest file 'robot_cam.egg-info/SOURCES.txt'
+[0.821s] running build_ext
+[0.822s] Creating /home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages/robot-cam.egg-link (link to .)
+[0.822s] Installing color_detect script to /home/mehul/elec555_ws/install/robot_cam/lib/robot_cam
+[0.822s] 
+[0.822s] Installed /home/mehul/elec555_ws/build/robot_cam
+[0.822s] running symlink_data
+[0.850s] Invoked command in '/home/mehul/elec555_ws/build/robot_cam' returned '0': AMENT_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mehul/elec555_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul/elec555_ws/build/robot_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages:/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/robot_cam/build --no-deps symlink_data

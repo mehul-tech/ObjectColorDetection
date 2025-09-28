@@ -1,0 +1,1 @@
+/home/mehul/elec555_ws/build/ros_robot_controller_msgs/ament_cmake_core/ros_robot_controller_msgsConfig-version.cmake

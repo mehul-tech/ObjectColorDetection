@@ -1,0 +1,15 @@
+running develop
+running egg_info
+writing teleop_ctrl.egg-info/PKG-INFO
+writing dependency_links to teleop_ctrl.egg-info/dependency_links.txt
+writing entry points to teleop_ctrl.egg-info/entry_points.txt
+writing requirements to teleop_ctrl.egg-info/requires.txt
+writing top-level names to teleop_ctrl.egg-info/top_level.txt
+reading manifest file 'teleop_ctrl.egg-info/SOURCES.txt'
+writing manifest file 'teleop_ctrl.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehul/elec555_ws/install/teleop_ctrl/lib/python3.10/site-packages/teleop-ctrl.egg-link (link to .)
+Installing teleop_ctrl script to /home/mehul/elec555_ws/install/teleop_ctrl/lib/teleop_ctrl
+
+Installed /home/mehul/elec555_ws/build/teleop_ctrl
+running symlink_data

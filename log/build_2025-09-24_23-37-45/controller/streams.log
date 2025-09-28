@@ -1,0 +1,34 @@
+[1.613s] Invoking command in '/home/mehul/elec555_ws/build/controller': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data
+[1.831s] running develop
+[2.026s] running egg_info
+[2.026s] creating controller.egg-info
+[2.027s] writing controller.egg-info/PKG-INFO
+[2.027s] writing dependency_links to controller.egg-info/dependency_links.txt
+[2.027s] writing entry points to controller.egg-info/entry_points.txt
+[2.027s] writing requirements to controller.egg-info/requires.txt
+[2.027s] writing top-level names to controller.egg-info/top_level.txt
+[2.028s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.031s] reading manifest file 'controller.egg-info/SOURCES.txt'
+[2.032s] writing manifest file 'controller.egg-info/SOURCES.txt'
+[2.034s] running build_ext
+[2.035s] Creating /home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages/controller.egg-link (link to .)
+[2.035s] Installing init_pose script to /home/mehul/elec555_ws/install/controller/lib/controller
+[2.036s] Installing odom_publisher script to /home/mehul/elec555_ws/install/controller/lib/controller
+[2.036s] 
+[2.036s] Installed /home/mehul/elec555_ws/build/controller
+[2.036s] running symlink_data
+[2.036s] creating /home/mehul/elec555_ws/install/controller/share/ament_index
+[2.036s] creating /home/mehul/elec555_ws/install/controller/share/ament_index/resource_index
+[2.036s] creating /home/mehul/elec555_ws/install/controller/share/ament_index/resource_index/packages
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/resource/controller -> /home/mehul/elec555_ws/install/controller/share/ament_index/resource_index/packages
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/package.xml -> /home/mehul/elec555_ws/install/controller/share/controller
+[2.036s] creating /home/mehul/elec555_ws/install/controller/share/controller/launch
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/launch/init_pose.launch.py -> /home/mehul/elec555_ws/install/controller/share/controller/launch
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/launch/controller.launch.py -> /home/mehul/elec555_ws/install/controller/share/controller/launch
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/launch/rf2o_laser_odometry.launch.py -> /home/mehul/elec555_ws/install/controller/share/controller/launch
+[2.036s] symbolically linking /home/mehul/elec555_ws/build/controller/launch/odom_publisher.launch.py -> /home/mehul/elec555_ws/install/controller/share/controller/launch
+[2.036s] creating /home/mehul/elec555_ws/install/controller/share/controller/config
+[2.037s] symbolically linking /home/mehul/elec555_ws/build/controller/config/ekf.yaml -> /home/mehul/elec555_ws/install/controller/share/controller/config
+[2.037s] symbolically linking /home/mehul/elec555_ws/build/controller/config/calibrate_params.yaml -> /home/mehul/elec555_ws/install/controller/share/controller/config
+[2.037s] symbolically linking /home/mehul/elec555_ws/build/controller/config/init_pose.yaml -> /home/mehul/elec555_ws/install/controller/share/controller/config
+[2.128s] Invoked command in '/home/mehul/elec555_ws/build/controller' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data

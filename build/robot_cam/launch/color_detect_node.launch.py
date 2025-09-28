@@ -1,0 +1,1 @@
+/home/mehul/elec555_ws/src/robot_cam/launch/color_detect_node.launch.py

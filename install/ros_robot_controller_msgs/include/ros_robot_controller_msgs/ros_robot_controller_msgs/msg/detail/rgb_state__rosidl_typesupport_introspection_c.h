@@ -1,0 +1,1 @@
+/home/mehul/elec555_ws/build/ros_robot_controller_msgs/rosidl_typesupport_introspection_c/ros_robot_controller_msgs/msg/detail/rgb_state__rosidl_typesupport_introspection_c.h

@@ -1,0 +1,60 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/mehul/elec555_ws/build/simulator
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//__pycache__/robot_description.launch.cpython-310.pyc
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//display.launch.py
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//robot_description.launch.py
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//rviz.launch.py
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/rviz//view.rviz
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//imu.urdf.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//inertial_matrix.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//lidar.urdf.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//materials.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mecanum.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mentorpi.xacro
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//base_link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//cam_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//lidar_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lb_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lf_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rb_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rf_Link.STL
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/resource//simulator
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/package_run_dependencies/simulator
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/parent_prefix_path/simulator
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.sh
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.dsv
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.sh
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.dsv
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.bash
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.sh
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.zsh
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.dsv
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/package.dsv
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/packages/simulator
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig.cmake
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig-version.cmake
+-- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/package.xml

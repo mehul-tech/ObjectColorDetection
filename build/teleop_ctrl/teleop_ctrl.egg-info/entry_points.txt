@@ -1,0 +1,3 @@
+[console_scripts]
+teleop_ctrl = teleop_ctrl.teleop_ctrl:main
+

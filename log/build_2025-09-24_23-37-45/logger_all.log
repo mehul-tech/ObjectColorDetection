@@ -1,0 +1,735 @@
+[0.192s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.192s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=16, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7dbc6cb5f3d0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7dbc6cca83a0>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7dbc6cca83a0>>, mixin_verb=('build',))
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.391s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.391s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/mehul/elec555_ws'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.391s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.392s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.402s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ignore_ament_install'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_pkg']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_pkg'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['colcon_meta']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'colcon_meta'
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extensions ['ros']
+[0.403s] Level 1:colcon.colcon_core.package_identification:_identify(src/bringup) by extension 'ros'
+[0.416s] DEBUG:colcon.colcon_core.package_identification:Package 'src/bringup' with type 'ros.ament_python' and name 'bringup'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ignore', 'ignore_ament_install']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ignore_ament_install'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_pkg']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_pkg'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['colcon_meta']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'colcon_meta'
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extensions ['ros']
+[0.416s] Level 1:colcon.colcon_core.package_identification:_identify(src/calibration) by extension 'ros'
+[0.417s] DEBUG:colcon.colcon_core.package_identification:Package 'src/calibration' with type 'ros.ament_python' and name 'calibration'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'ros'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['cmake', 'python']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'cmake'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'python'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extensions ['python_setup_py']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver) by extension 'python_setup_py'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extensions ['ignore', 'ignore_ament_install']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extension 'ignore'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extension 'ignore_ament_install'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extensions ['colcon_pkg']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extension 'colcon_pkg'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extensions ['colcon_meta']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extension 'colcon_meta'
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extensions ['ros']
+[0.417s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/controller) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver/controller' with type 'ros.ament_python' and name 'controller'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extension 'ignore'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extension 'ignore_ament_install'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extensions ['colcon_pkg']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extension 'colcon_pkg'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extensions ['colcon_meta']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extension 'colcon_meta'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extensions ['ros']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller) by extension 'ros'
+[0.418s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver/ros_robot_controller' with type 'ros.ament_python' and name 'ros_robot_controller'
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.418s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/ros_robot_controller_msgs) by extension 'ros'
+[0.419s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver/ros_robot_controller_msgs' with type 'ros.ament_cmake' and name 'ros_robot_controller_msgs'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extensions ['ignore', 'ignore_ament_install']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extension 'ignore'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extension 'ignore_ament_install'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extensions ['colcon_pkg']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extension 'colcon_pkg'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extensions ['colcon_meta']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extension 'colcon_meta'
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extensions ['ros']
+[0.419s] Level 1:colcon.colcon_core.package_identification:_identify(src/driver/sdk) by extension 'ros'
+[0.420s] DEBUG:colcon.colcon_core.package_identification:Package 'src/driver/sdk' with type 'ros.ament_python' and name 'sdk'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ignore_ament_install'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_pkg']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_pkg'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['colcon_meta']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'colcon_meta'
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extensions ['ros']
+[0.420s] Level 1:colcon.colcon_core.package_identification:_identify(src/interfaces) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/interfaces' with type 'ros.ament_cmake' and name 'interfaces'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extensions ['ignore', 'ignore_ament_install']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extension 'ignore'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extension 'ignore_ament_install'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extensions ['colcon_pkg']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extension 'colcon_pkg'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extensions ['colcon_meta']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extension 'colcon_meta'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extensions ['ros']
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/peripherals) by extension 'ros'
+[0.421s] DEBUG:colcon.colcon_core.package_identification:Package 'src/peripherals' with type 'ros.ament_python' and name 'peripherals'
+[0.421s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extensions ['ignore', 'ignore_ament_install']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extension 'ignore'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extension 'ignore_ament_install'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extensions ['colcon_pkg']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extension 'colcon_pkg'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extensions ['colcon_meta']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extension 'colcon_meta'
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extensions ['ros']
+[0.422s] Level 1:colcon.colcon_core.package_identification:_identify(src/robot_cam) by extension 'ros'
+[0.422s] DEBUG:colcon.colcon_core.package_identification:Package 'src/robot_cam' with type 'ros.ament_python' and name 'robot_cam'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extension 'colcon_pkg'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extensions ['colcon_meta']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extension 'colcon_meta'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extensions ['ros']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/simulator) by extension 'ros'
+[0.423s] DEBUG:colcon.colcon_core.package_identification:Package 'src/simulator' with type 'ros.ament_cmake' and name 'simulator'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extensions ['ignore', 'ignore_ament_install']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extension 'ignore'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extension 'ignore_ament_install'
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extensions ['colcon_pkg']
+[0.423s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extension 'colcon_pkg'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extensions ['colcon_meta']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extension 'colcon_meta'
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extensions ['ros']
+[0.424s] Level 1:colcon.colcon_core.package_identification:_identify(src/teleop_ctrl) by extension 'ros'
+[0.424s] DEBUG:colcon.colcon_core.package_identification:Package 'src/teleop_ctrl' with type 'ros.ament_python' and name 'teleop_ctrl'
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.424s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.447s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.450s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/mehul/ros2_ws/install
+[0.452s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 440 installed packages in /opt/ros/humble
+[0.454s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'bringup' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'bringup' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/bringup', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/bringup', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/bringup', 'symlink_install': True, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_cache' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_clean_first' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'cmake_force_configure' from command line to 'False'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'ament_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_cmake_args' from command line to 'None'
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'calibration' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.500s] DEBUG:colcon.colcon_core.verb:Building package 'calibration' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/calibration', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/calibration', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/calibration', 'symlink_install': True, 'test_result_base': None}
+[0.500s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/controller', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/driver/controller', 'symlink_install': True, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/interfaces', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_target' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_clean_cache' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_clean_first' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'cmake_force_configure' from command line to 'False'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'ament_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'catkin_cmake_args' from command line to 'None'
+[0.501s] Level 5:colcon.colcon_core.verb:set package 'peripherals' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.501s] DEBUG:colcon.colcon_core.verb:Building package 'peripherals' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/peripherals', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/peripherals', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/peripherals', 'symlink_install': True, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'ros_robot_controller' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/ros_robot_controller', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/ros_robot_controller', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/driver/ros_robot_controller', 'symlink_install': True, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'ros_robot_controller_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'ros_robot_controller_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/ros_robot_controller_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/ros_robot_controller_msgs', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/driver/ros_robot_controller_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_target' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_clean_cache' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_clean_first' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'cmake_force_configure' from command line to 'False'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'ament_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'catkin_cmake_args' from command line to 'None'
+[0.502s] Level 5:colcon.colcon_core.verb:set package 'sdk' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.502s] DEBUG:colcon.colcon_core.verb:Building package 'sdk' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/sdk', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/sdk', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/driver/sdk', 'symlink_install': True, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'simulator' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'simulator' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/simulator', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/simulator', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/simulator', 'symlink_install': True, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'ament_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'catkin_cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'teleop_ctrl' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.503s] DEBUG:colcon.colcon_core.verb:Building package 'teleop_ctrl' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/teleop_ctrl', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/teleop_ctrl', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/teleop_ctrl', 'symlink_install': True, 'test_result_base': None}
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_args' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_target' from command line to 'None'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_clean_cache' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_clean_first' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'cmake_force_configure' from command line to 'False'
+[0.503s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'ament_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'catkin_cmake_args' from command line to 'None'
+[0.504s] Level 5:colcon.colcon_core.verb:set package 'robot_cam' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.504s] DEBUG:colcon.colcon_core.verb:Building package 'robot_cam' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/mehul/elec555_ws/build/robot_cam', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/mehul/elec555_ws/install/robot_cam', 'merge_install': False, 'path': '/home/mehul/elec555_ws/src/robot_cam', 'symlink_install': True, 'test_result_base': None}
+[0.504s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.505s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.505s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mehul/elec555_ws/src/interfaces' with build type 'ament_cmake'
+[0.505s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mehul/elec555_ws/src/interfaces'
+[0.510s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.510s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.510s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.514s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/bringup' with build type 'ament_python'
+[0.514s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'ament_prefix_path')
+[0.514s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/ament_prefix_path.ps1'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/ament_prefix_path.dsv'
+[0.515s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/ament_prefix_path.sh'
+[0.515s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.515s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.519s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/calibration' with build type 'ament_python'
+[0.519s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'ament_prefix_path')
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/ament_prefix_path.ps1'
+[0.519s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/ament_prefix_path.dsv'
+[0.520s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/ament_prefix_path.sh'
+[0.520s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.520s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.522s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/driver/controller' with build type 'ament_python'
+[0.523s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'ament_prefix_path')
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/controller/share/controller/hook/ament_prefix_path.ps1'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/controller/share/controller/hook/ament_prefix_path.dsv'
+[0.523s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/controller/share/controller/hook/ament_prefix_path.sh'
+[0.523s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.523s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.526s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/peripherals' with build type 'ament_python'
+[0.526s] Level 1:colcon.colcon_core.shell:create_environment_hook('peripherals', 'ament_prefix_path')
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/ament_prefix_path.ps1'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/ament_prefix_path.dsv'
+[0.526s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/ament_prefix_path.sh'
+[0.527s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.527s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.529s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/driver/ros_robot_controller' with build type 'ament_python'
+[0.529s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller', 'ament_prefix_path')
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/ament_prefix_path.ps1'
+[0.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/ament_prefix_path.dsv'
+[0.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/ament_prefix_path.sh'
+[0.530s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.530s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mehul/elec555_ws/src/driver/ros_robot_controller_msgs' with build type 'ament_cmake'
+[0.532s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mehul/elec555_ws/src/driver/ros_robot_controller_msgs'
+[0.532s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.532s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.534s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/driver/sdk' with build type 'ament_python'
+[0.534s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk', 'ament_prefix_path')
+[0.534s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/ament_prefix_path.ps1'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/ament_prefix_path.dsv'
+[0.535s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/ament_prefix_path.sh'
+[0.535s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.535s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.539s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/mehul/elec555_ws/src/simulator' with build type 'ament_cmake'
+[0.540s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/mehul/elec555_ws/src/simulator'
+[0.540s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.540s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.542s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/teleop_ctrl' with build type 'ament_python'
+[0.542s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_ctrl', 'ament_prefix_path')
+[0.542s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/ament_prefix_path.ps1'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/ament_prefix_path.dsv'
+[0.543s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/ament_prefix_path.sh'
+[0.543s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.543s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.548s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/interfaces
+[0.706s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/bringup'
+[0.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.874s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/calibration'
+[0.874s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.874s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.029s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/driver/controller'
+[1.029s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.029s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.185s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/peripherals'
+[1.186s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.186s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.337s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/driver/ros_robot_controller'
+[1.338s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.338s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.343s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/driver/ros_robot_controller_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/ros_robot_controller_msgs
+[1.513s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/driver/sdk'
+[1.513s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.513s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.519s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/simulator
+[1.706s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/teleop_ctrl'
+[1.707s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.707s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.060s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/simulator
+[2.062s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[2.113s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[2.126s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator
+[2.130s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/peripherals': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data
+[2.136s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/controller': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data
+[2.139s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/calibration': PYTHONPATH=/home/mehul/elec555_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/calibration/build --no-deps symlink_data
+[2.148s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/ros_robot_controller': PYTHONPATH=/home/mehul/elec555_ws/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/ros_robot_controller/build --no-deps symlink_data
+[2.163s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/bringup': PYTHONPATH=/home/mehul/elec555_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/bringup/build --no-deps symlink_data
+[2.166s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/teleop_ctrl': PYTHONPATH=/home/mehul/elec555_ws/build/teleop_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/teleop_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/teleop_ctrl/build --no-deps symlink_data
+[2.168s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/sdk': PYTHONPATH=/home/mehul/elec555_ws/build/sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/sdk/build --no-deps symlink_data
+[2.217s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/interfaces -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/interfaces
+[2.219s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/interfaces -- -j16 -l16
+[2.566s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulator)
+[2.567s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator
+[2.571s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator' for CMake module files
+[2.572s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator' for CMake config files
+[2.572s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator', 'cmake_prefix_path')
+[2.572s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.ps1'
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.dsv'
+[2.573s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.sh'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/bin'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/lib/pkgconfig/simulator.pc'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/lib/python3.10/site-packages'
+[2.574s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/bin'
+[2.574s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.ps1'
+[2.575s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/simulator/share/simulator/package.dsv'
+[2.576s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.sh'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.bash'
+[2.577s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.zsh'
+[2.578s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/simulator/share/colcon-core/packages/simulator)
+[2.579s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(simulator)
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator' for CMake module files
+[2.580s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator' for CMake config files
+[2.580s] Level 1:colcon.colcon_core.shell:create_environment_hook('simulator', 'cmake_prefix_path')
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.ps1'
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.dsv'
+[2.581s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/simulator/share/simulator/hook/cmake_prefix_path.sh'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/bin'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/lib/pkgconfig/simulator.pc'
+[2.582s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/lib/python3.10/site-packages'
+[2.583s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/simulator/bin'
+[2.583s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.ps1'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/simulator/share/simulator/package.dsv'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.sh'
+[2.584s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.bash'
+[2.585s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/simulator/share/simulator/package.zsh'
+[2.585s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/simulator/share/colcon-core/packages/simulator)
+[2.587s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'pythonpath_develop')
+[2.587s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/calibration/share/calibration/hook/pythonpath_develop.ps1'
+[2.587s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/calibration' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/calibration/build --no-deps symlink_data
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/calibration/share/calibration/hook/pythonpath_develop.dsv'
+[2.588s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/calibration/share/calibration/hook/pythonpath_develop.sh'
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration' for CMake module files
+[2.589s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration' for CMake config files
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration/lib'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration/bin'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration/lib/pkgconfig/calibration.pc'
+[2.590s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages'
+[2.590s] Level 1:colcon.colcon_core.shell:create_environment_hook('calibration', 'pythonpath')
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/pythonpath.ps1'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/pythonpath.dsv'
+[2.591s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/calibration/share/calibration/hook/pythonpath.sh'
+[2.592s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/calibration/bin'
+[2.592s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(calibration)
+[2.592s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/calibration/share/calibration/package.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/calibration/share/calibration/package.dsv'
+[2.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/calibration/share/calibration/package.sh'
+[2.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/calibration/share/calibration/package.bash'
+[2.593s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/calibration/share/calibration/package.zsh'
+[2.594s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/calibration/share/colcon-core/packages/calibration)
+[2.595s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath_develop')
+[2.595s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/bringup/share/bringup/hook/pythonpath_develop.ps1'
+[2.596s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/bringup' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/bringup/build --no-deps symlink_data
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/bringup/share/bringup/hook/pythonpath_develop.dsv'
+[2.596s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/bringup/share/bringup/hook/pythonpath_develop.sh'
+[2.596s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup' for CMake module files
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup' for CMake config files
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup/lib'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup/bin'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup/lib/pkgconfig/bringup.pc'
+[2.597s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages'
+[2.597s] Level 1:colcon.colcon_core.shell:create_environment_hook('bringup', 'pythonpath')
+[2.597s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/pythonpath.ps1'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/pythonpath.dsv'
+[2.598s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/bringup/share/bringup/hook/pythonpath.sh'
+[2.598s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/bringup/bin'
+[2.598s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(bringup)
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/bringup/share/bringup/package.ps1'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/bringup/share/bringup/package.dsv'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/bringup/share/bringup/package.sh'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/bringup/share/bringup/package.bash'
+[2.599s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/bringup/share/bringup/package.zsh'
+[2.600s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/bringup/share/colcon-core/packages/bringup)
+[2.613s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller', 'pythonpath_develop')
+[2.614s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/ros_robot_controller/share/ros_robot_controller/hook/pythonpath_develop.ps1'
+[2.614s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/ros_robot_controller' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/ros_robot_controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/ros_robot_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/ros_robot_controller/build --no-deps symlink_data
+[2.615s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/ros_robot_controller/share/ros_robot_controller/hook/pythonpath_develop.dsv'
+[2.615s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/ros_robot_controller/share/ros_robot_controller/hook/pythonpath_develop.sh'
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller' for CMake module files
+[2.616s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller' for CMake config files
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller/lib'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller/bin'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller/lib/pkgconfig/ros_robot_controller.pc'
+[2.617s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller/lib/python3.10/site-packages'
+[2.617s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller', 'pythonpath')
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/pythonpath.ps1'
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/pythonpath.dsv'
+[2.617s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/hook/pythonpath.sh'
+[2.618s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller/bin'
+[2.618s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_robot_controller)
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/package.ps1'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/package.dsv'
+[2.618s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/package.sh'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/package.bash'
+[2.619s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller/share/ros_robot_controller/package.zsh'
+[2.619s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/ros_robot_controller/share/colcon-core/packages/ros_robot_controller)
+[2.621s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk', 'pythonpath_develop')
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/sdk/share/sdk/hook/pythonpath_develop.ps1'
+[2.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/sdk' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/sdk/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/sdk/build --no-deps symlink_data
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/sdk/share/sdk/hook/pythonpath_develop.dsv'
+[2.622s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/sdk/share/sdk/hook/pythonpath_develop.sh'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk' for CMake module files
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk' for CMake config files
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk/lib'
+[2.623s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk/bin'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk/lib/pkgconfig/sdk.pc'
+[2.624s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages'
+[2.624s] Level 1:colcon.colcon_core.shell:create_environment_hook('sdk', 'pythonpath')
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/pythonpath.ps1'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/pythonpath.dsv'
+[2.624s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/sdk/share/sdk/hook/pythonpath.sh'
+[2.625s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/sdk/bin'
+[2.625s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(sdk)
+[2.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/sdk/share/sdk/package.ps1'
+[2.625s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/sdk/share/sdk/package.dsv'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/sdk/share/sdk/package.sh'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/sdk/share/sdk/package.bash'
+[2.626s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/sdk/share/sdk/package.zsh'
+[2.626s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/sdk/share/colcon-core/packages/sdk)
+[2.637s] Level 1:colcon.colcon_core.shell:create_environment_hook('peripherals', 'pythonpath_develop')
+[2.637s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/peripherals/share/peripherals/hook/pythonpath_develop.ps1'
+[2.638s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/peripherals' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/peripherals/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/peripherals/build --no-deps symlink_data
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/peripherals/share/peripherals/hook/pythonpath_develop.dsv'
+[2.638s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/peripherals/share/peripherals/hook/pythonpath_develop.sh'
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals' for CMake module files
+[2.639s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals' for CMake config files
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals/lib'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals/bin'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals/lib/pkgconfig/peripherals.pc'
+[2.640s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals/lib/python3.10/site-packages'
+[2.640s] Level 1:colcon.colcon_core.shell:create_environment_hook('peripherals', 'pythonpath')
+[2.640s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/pythonpath.ps1'
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/pythonpath.dsv'
+[2.641s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/peripherals/share/peripherals/hook/pythonpath.sh'
+[2.641s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/peripherals/bin'
+[2.641s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(peripherals)
+[2.641s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/peripherals/share/peripherals/package.ps1'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/peripherals/share/peripherals/package.dsv'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/peripherals/share/peripherals/package.sh'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/peripherals/share/peripherals/package.bash'
+[2.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/peripherals/share/peripherals/package.zsh'
+[2.642s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/peripherals/share/colcon-core/packages/peripherals)
+[2.650s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath_develop')
+[2.651s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/controller' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/controller/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/controller/build --no-deps symlink_data
+[2.651s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/controller/share/controller/hook/pythonpath_develop.ps1'
+[2.652s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/controller/share/controller/hook/pythonpath_develop.dsv'
+[2.652s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/controller/share/controller/hook/pythonpath_develop.sh'
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller' for CMake module files
+[2.653s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller' for CMake config files
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller/lib'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller/bin'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller/lib/pkgconfig/controller.pc'
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller/lib/python3.10/site-packages'
+[2.654s] Level 1:colcon.colcon_core.shell:create_environment_hook('controller', 'pythonpath')
+[2.654s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/controller/share/controller/hook/pythonpath.ps1'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/controller/share/controller/hook/pythonpath.dsv'
+[2.655s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/controller/share/controller/hook/pythonpath.sh'
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/controller/bin'
+[2.655s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(controller)
+[2.655s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/controller/share/controller/package.ps1'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/controller/share/controller/package.dsv'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/controller/share/controller/package.sh'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/controller/share/controller/package.bash'
+[2.656s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/controller/share/controller/package.zsh'
+[2.656s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/controller/share/colcon-core/packages/controller)
+[2.658s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_ctrl', 'pythonpath_develop')
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/teleop_ctrl/share/teleop_ctrl/hook/pythonpath_develop.ps1'
+[2.658s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/teleop_ctrl' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/teleop_ctrl/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/teleop_ctrl/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/teleop_ctrl/build --no-deps symlink_data
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/teleop_ctrl/share/teleop_ctrl/hook/pythonpath_develop.dsv'
+[2.658s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/teleop_ctrl/share/teleop_ctrl/hook/pythonpath_develop.sh'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl' for CMake module files
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl' for CMake config files
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl/lib'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl/bin'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl/lib/pkgconfig/teleop_ctrl.pc'
+[2.659s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl/lib/python3.10/site-packages'
+[2.659s] Level 1:colcon.colcon_core.shell:create_environment_hook('teleop_ctrl', 'pythonpath')
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/pythonpath.ps1'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/pythonpath.dsv'
+[2.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/hook/pythonpath.sh'
+[2.660s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/teleop_ctrl/bin'
+[2.660s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(teleop_ctrl)
+[2.660s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/package.ps1'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/package.dsv'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/package.sh'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/package.bash'
+[2.661s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/teleop_ctrl/share/teleop_ctrl/package.zsh'
+[2.662s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/teleop_ctrl/share/colcon-core/packages/teleop_ctrl)
+[2.900s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/driver/ros_robot_controller_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/ros_robot_controller_msgs
+[2.901s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/ros_robot_controller_msgs -- -j16 -l16
+[10.267s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/ros_robot_controller_msgs -- -j16 -l16
+[10.268s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/ros_robot_controller_msgs
+[11.044s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/interfaces -- -j16 -l16
+[11.045s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/interfaces
+[12.919s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_robot_controller_msgs)
+[12.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/ros_robot_controller_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/ros_robot_controller_msgs
+[12.920s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs' for CMake module files
+[12.921s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs' for CMake config files
+[12.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller_msgs', 'cmake_prefix_path')
+[12.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.ps1'
+[12.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.dsv'
+[12.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.sh'
+[12.923s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib'
+[12.924s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller_msgs', 'ld_library_path_lib')
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.ps1'
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.dsv'
+[12.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.sh'
+[12.924s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/bin'
+[12.924s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib/pkgconfig/ros_robot_controller_msgs.pc'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib/python3.10/site-packages'
+[12.925s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/bin'
+[12.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.ps1'
+[12.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.dsv'
+[12.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.sh'
+[12.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.bash'
+[12.926s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.zsh'
+[12.926s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/colcon-core/packages/ros_robot_controller_msgs)
+[12.926s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_robot_controller_msgs)
+[12.926s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs' for CMake module files
+[12.927s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs' for CMake config files
+[12.928s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller_msgs', 'cmake_prefix_path')
+[12.928s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.ps1'
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.dsv'
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/cmake_prefix_path.sh'
+[12.929s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib'
+[12.929s] Level 1:colcon.colcon_core.shell:create_environment_hook('ros_robot_controller_msgs', 'ld_library_path_lib')
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.ps1'
+[12.929s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.dsv'
+[12.930s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/hook/ld_library_path_lib.sh'
+[12.930s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/bin'
+[12.930s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib/pkgconfig/ros_robot_controller_msgs.pc'
+[12.930s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/lib/python3.10/site-packages'
+[12.930s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/bin'
+[12.930s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.ps1'
+[12.930s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.dsv'
+[12.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.sh'
+[12.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.bash'
+[12.931s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/ros_robot_controller_msgs/package.zsh'
+[12.932s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/ros_robot_controller_msgs/share/colcon-core/packages/ros_robot_controller_msgs)
+[14.419s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[14.419s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces' for CMake module files
+[14.420s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/interfaces
+[14.420s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces' for CMake config files
+[14.422s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[14.422s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[14.423s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib'
+[14.423s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[14.423s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[14.424s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/bin'
+[14.424s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[14.424s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib/python3.10/site-packages'
+[14.424s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/bin'
+[14.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.ps1'
+[14.424s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.dsv'
+[14.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.sh'
+[14.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.bash'
+[14.425s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.zsh'
+[14.425s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[14.425s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(interfaces)
+[14.425s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces' for CMake module files
+[14.426s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces' for CMake config files
+[14.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'cmake_prefix_path')
+[14.427s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.ps1'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.dsv'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/cmake_prefix_path.sh'
+[14.428s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib'
+[14.428s] Level 1:colcon.colcon_core.shell:create_environment_hook('interfaces', 'ld_library_path_lib')
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.ps1'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.dsv'
+[14.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/interfaces/share/interfaces/hook/ld_library_path_lib.sh'
+[14.429s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/bin'
+[14.429s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib/pkgconfig/interfaces.pc'
+[14.429s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/lib/python3.10/site-packages'
+[14.429s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/interfaces/bin'
+[14.429s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.ps1'
+[14.429s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.dsv'
+[14.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.sh'
+[14.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.bash'
+[14.430s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/interfaces/share/interfaces/package.zsh'
+[14.431s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/interfaces/share/colcon-core/packages/interfaces)
+[14.431s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/home/mehul/elec555_ws/src/robot_cam' with build type 'ament_python'
+[14.431s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cam', 'ament_prefix_path')
+[14.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/ament_prefix_path.ps1'
+[14.432s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/ament_prefix_path.dsv'
+[14.432s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/ament_prefix_path.sh'
+[14.432s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.432s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.576s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/home/mehul/elec555_ws/src/robot_cam'
+[14.576s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[14.576s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[14.787s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/mehul/elec555_ws/build/robot_cam': AMENT_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mehul/elec555_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul/elec555_ws/build/robot_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages:/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/robot_cam/build --no-deps symlink_data
+[15.031s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cam', 'pythonpath_develop')
+[15.031s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/robot_cam/share/robot_cam/hook/pythonpath_develop.ps1'
+[15.032s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/mehul/elec555_ws/build/robot_cam' returned '0': AMENT_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mehul/elec555_ws/install/interfaces:${CMAKE_PREFIX_PATH} LD_LIBRARY_PATH=/home/mehul/elec555_ws/install/interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/mehul/elec555_ws/build/robot_cam/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages:/home/mehul/elec555_ws/install/interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/robot_cam/build --no-deps symlink_data
+[15.032s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/build/robot_cam/share/robot_cam/hook/pythonpath_develop.dsv'
+[15.032s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/build/robot_cam/share/robot_cam/hook/pythonpath_develop.sh'
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam' for CMake module files
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam' for CMake config files
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam/lib'
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam/bin'
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam/lib/pkgconfig/robot_cam.pc'
+[15.033s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam/lib/python3.10/site-packages'
+[15.034s] Level 1:colcon.colcon_core.shell:create_environment_hook('robot_cam', 'pythonpath')
+[15.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/pythonpath.ps1'
+[15.034s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/pythonpath.dsv'
+[15.034s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/hook/pythonpath.sh'
+[15.034s] Level 1:colcon.colcon_core.environment:checking '/home/mehul/elec555_ws/install/robot_cam/bin'
+[15.034s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(robot_cam)
+[15.034s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/package.ps1'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/package.dsv'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/package.sh'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/package.bash'
+[15.035s] INFO:colcon.colcon_core.shell:Creating package script '/home/mehul/elec555_ws/install/robot_cam/share/robot_cam/package.zsh'
+[15.035s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/mehul/elec555_ws/install/robot_cam/share/colcon-core/packages/robot_cam)
+[15.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[15.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[15.036s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[15.036s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[15.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[15.041s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[15.041s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[15.052s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[15.052s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mehul/elec555_ws/install/local_setup.ps1'
+[15.053s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mehul/elec555_ws/install/_local_setup_util_ps1.py'
+[15.054s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mehul/elec555_ws/install/setup.ps1'
+[15.055s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mehul/elec555_ws/install/local_setup.sh'
+[15.055s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/mehul/elec555_ws/install/_local_setup_util_sh.py'
+[15.055s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mehul/elec555_ws/install/setup.sh'
+[15.056s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mehul/elec555_ws/install/local_setup.bash'
+[15.056s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mehul/elec555_ws/install/setup.bash'
+[15.057s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/mehul/elec555_ws/install/local_setup.zsh'
+[15.057s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/mehul/elec555_ws/install/setup.zsh'

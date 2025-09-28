@@ -1,0 +1,66 @@
+[0.978s] Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/simulator
+[1.025s] -- The C compiler identification is GNU 11.4.0
+[1.068s] -- The CXX compiler identification is GNU 11.4.0
+[1.073s] -- Detecting C compiler ABI info
+[1.136s] -- Detecting C compiler ABI info - done
+[1.140s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.140s] -- Detecting C compile features
+[1.140s] -- Detecting C compile features - done
+[1.142s] -- Detecting CXX compiler ABI info
+[1.215s] -- Detecting CXX compiler ABI info - done
+[1.220s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.220s] -- Detecting CXX compile features
+[1.220s] -- Detecting CXX compile features - done
+[1.223s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.347s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.394s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.420s] -- Found xacro: 2.1.1 (/opt/ros/humble/share/xacro/cmake)
+[1.422s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.499s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.500s] -- Added test 'lint_cmake' to check CMake code style
+[1.500s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.502s] -- Added test 'xmllint' to check XML markup files
+[1.504s] -- Configuring done
+[1.508s] -- Generating done
+[1.509s] -- Build files have been written to: /home/mehul/elec555_ws/build/simulator
+[1.520s] Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/mehul/elec555_ws/src/simulator -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mehul/elec555_ws/install/simulator
+[1.522s] Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[1.573s] Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[1.586s] Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator
+[1.596s] -- Install configuration: ""
+[1.596s] -- Execute custom install script
+[1.596s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//__pycache__/robot_description.launch.cpython-310.pyc
+[1.606s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//display.launch.py
+[1.620s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//robot_description.launch.py
+[1.633s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//rviz.launch.py
+[1.648s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/rviz//view.rviz
+[1.662s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//imu.urdf.xacro
+[1.676s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//inertial_matrix.xacro
+[1.687s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//lidar.urdf.xacro
+[1.698s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//materials.xacro
+[1.710s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mecanum.xacro
+[1.722s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mentorpi.xacro
+[1.732s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//base_link.STL
+[1.742s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//cam_Link.STL
+[1.754s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//lidar_Link.STL
+[1.766s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lb_Link.STL
+[1.779s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lf_Link.STL
+[1.791s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rb_Link.STL
+[1.801s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rf_Link.STL
+[1.812s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/resource//simulator
+[1.826s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/package_run_dependencies/simulator
+[1.838s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/parent_prefix_path/simulator
+[1.850s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.sh
+[1.863s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.dsv
+[1.875s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.sh
+[1.888s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.dsv
+[1.901s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.bash
+[1.917s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.sh
+[1.930s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.zsh
+[1.944s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.dsv
+[1.956s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/package.dsv
+[1.969s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/packages/simulator
+[1.981s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig.cmake
+[1.994s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig-version.cmake
+[2.008s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/package.xml
+[2.027s] Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator

@@ -1,0 +1,14 @@
+running develop
+running egg_info
+writing sdk.egg-info/PKG-INFO
+writing dependency_links to sdk.egg-info/dependency_links.txt
+writing entry points to sdk.egg-info/entry_points.txt
+writing requirements to sdk.egg-info/requires.txt
+writing top-level names to sdk.egg-info/top_level.txt
+reading manifest file 'sdk.egg-info/SOURCES.txt'
+writing manifest file 'sdk.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/mehul/elec555_ws/install/sdk/lib/python3.10/site-packages/sdk.egg-link (link to .)
+
+Installed /home/mehul/elec555_ws/build/sdk
+running symlink_data

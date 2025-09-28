@@ -1,0 +1,1 @@
+/home/mehul/elec555_ws/build/interfaces/rosidl_typesupport_fastrtps_c/interfaces/msg/detail/color_detect__rosidl_typesupport_fastrtps_c.h

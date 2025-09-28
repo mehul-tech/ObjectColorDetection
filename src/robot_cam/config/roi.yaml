@@ -1,0 +1,23 @@
+# ELEC555 Activity 1: ROIs (leave empty and design your own)
+# 规则：
+# - rect/circle ROI 任一字段为 null 或 0 都视为禁用
+# - line ROI 是一个字典，value 形如 [ymin, ymax, xmin, xmax, weight]；所有 weight 之和建议 = 1.0
+
+/**:
+  ros__parameters:
+    roi_line:
+      # y_min, y_max, x_min, x_max, scale
+      # TODO(Student): e.g., roi_up/roi_mid/roi_down
+      roi_up: [0, 0, 0, 0, 0.]
+      roi_center: [0, 0, 0, 0, 0.]
+      roi_down: [0, 0, 0, 0, 1.]
+    roi_rect:
+      x_min: 0 # ### TODO ### set a rectangle where you expect targets
+      x_max: 0
+      y_min: 0
+      y_max: 0
+    roi_circle:
+      x_min: 0 # ### OPTIONAL ### only used if you implement circle‑ROI logic
+      x_max: 0
+      y_min: 0
+      y_max: 0

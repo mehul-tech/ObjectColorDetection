@@ -1,0 +1,17 @@
+[1.744s] Invoking command in '/home/mehul/elec555_ws/build/bringup': PYTHONPATH=/home/mehul/elec555_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/bringup/build --no-deps symlink_data
+[1.939s] running develop
+[2.078s] running egg_info
+[2.078s] writing bringup.egg-info/PKG-INFO
+[2.078s] writing dependency_links to bringup.egg-info/dependency_links.txt
+[2.078s] writing entry points to bringup.egg-info/entry_points.txt
+[2.079s] writing requirements to bringup.egg-info/requires.txt
+[2.079s] writing top-level names to bringup.egg-info/top_level.txt
+[2.080s] reading manifest file 'bringup.egg-info/SOURCES.txt'
+[2.081s] writing manifest file 'bringup.egg-info/SOURCES.txt'
+[2.082s] running build_ext
+[2.082s] Creating /home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages/bringup.egg-link (link to .)
+[2.083s] Installing startup_check script to /home/mehul/elec555_ws/install/bringup/lib/bringup
+[2.083s] 
+[2.083s] Installed /home/mehul/elec555_ws/build/bringup
+[2.083s] running symlink_data
+[2.171s] Invoked command in '/home/mehul/elec555_ws/build/bringup' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/bringup/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/bringup/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/bringup/build --no-deps symlink_data

@@ -1,0 +1,18 @@
+[1.590s] Invoking command in '/home/mehul/elec555_ws/build/calibration': PYTHONPATH=/home/mehul/elec555_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/calibration/build --no-deps symlink_data
+[1.761s] running develop
+[1.891s] running egg_info
+[1.892s] writing calibration.egg-info/PKG-INFO
+[1.892s] writing dependency_links to calibration.egg-info/dependency_links.txt
+[1.892s] writing entry points to calibration.egg-info/entry_points.txt
+[1.892s] writing requirements to calibration.egg-info/requires.txt
+[1.892s] writing top-level names to calibration.egg-info/top_level.txt
+[1.894s] reading manifest file 'calibration.egg-info/SOURCES.txt'
+[1.895s] writing manifest file 'calibration.egg-info/SOURCES.txt'
+[1.896s] running build_ext
+[1.896s] Creating /home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages/calibration.egg-link (link to .)
+[1.897s] Installing calibrate_angular script to /home/mehul/elec555_ws/install/calibration/lib/calibration
+[1.897s] Installing calibrate_linear script to /home/mehul/elec555_ws/install/calibration/lib/calibration
+[1.897s] 
+[1.897s] Installed /home/mehul/elec555_ws/build/calibration
+[1.897s] running symlink_data
+[1.975s] Invoked command in '/home/mehul/elec555_ws/build/calibration' returned '0': PYTHONPATH=/home/mehul/elec555_ws/build/calibration/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/mehul/elec555_ws/install/calibration/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/mehul/elec555_ws/build/calibration/build --no-deps symlink_data

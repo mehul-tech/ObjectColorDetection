@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "interfaces__py",
+		"source" : "/home/mehul/elec555_ws/build/interfaces/interfaces__py"
+	}
+}

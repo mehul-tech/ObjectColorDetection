@@ -1,0 +1,3 @@
+[console_scripts]
+color_detect = robot_cam.color_detect_node:main
+

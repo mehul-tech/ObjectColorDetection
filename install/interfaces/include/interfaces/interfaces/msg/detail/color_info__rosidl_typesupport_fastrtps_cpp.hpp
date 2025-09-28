@@ -1,0 +1,1 @@
+/home/mehul/elec555_ws/build/interfaces/rosidl_typesupport_fastrtps_cpp/interfaces/msg/detail/color_info__rosidl_typesupport_fastrtps_cpp.hpp

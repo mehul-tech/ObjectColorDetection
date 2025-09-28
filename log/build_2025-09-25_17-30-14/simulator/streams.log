@@ -1,0 +1,40 @@
+[0.967s] Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[1.158s] Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/mehul/elec555_ws/build/simulator -- -j16 -l16
+[1.160s] Invoking command in '/home/mehul/elec555_ws/build/simulator': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator
+[1.168s] -- Install configuration: ""
+[1.169s] -- Execute custom install script
+[1.169s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//__pycache__/robot_description.launch.cpython-310.pyc
+[1.169s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//display.launch.py
+[1.170s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//robot_description.launch.py
+[1.170s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/launch//rviz.launch.py
+[1.170s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/rviz//view.rviz
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//imu.urdf.xacro
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//inertial_matrix.xacro
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//lidar.urdf.xacro
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//materials.xacro
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mecanum.xacro
+[1.171s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/urdf//mentorpi.xacro
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//base_link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//cam_Link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//lidar_Link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lb_Link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_lf_Link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rb_Link.STL
+[1.172s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/meshes//wheel_rf_Link.STL
+[1.173s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/resource//simulator
+[1.173s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/package_run_dependencies/simulator
+[1.174s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/parent_prefix_path/simulator
+[1.174s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.sh
+[1.174s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/ament_prefix_path.dsv
+[1.174s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.sh
+[1.175s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/environment/path.dsv
+[1.175s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.bash
+[1.175s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.sh
+[1.175s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.zsh
+[1.175s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/local_setup.dsv
+[1.176s] -- Symlinking: /home/mehul/elec555_ws/install/simulator/share/simulator/package.dsv
+[1.187s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/ament_index/resource_index/packages/simulator
+[1.187s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig.cmake
+[1.188s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/cmake/simulatorConfig-version.cmake
+[1.188s] -- Up-to-date symlink: /home/mehul/elec555_ws/install/simulator/share/simulator/package.xml
+[1.191s] Invoked command in '/home/mehul/elec555_ws/build/simulator' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/mehul/elec555_ws/build/simulator
