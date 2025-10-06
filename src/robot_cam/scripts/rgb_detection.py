@@ -57,7 +57,8 @@ def getAreaMaxContour(contours):
 color_list = []
 detect_color = 'None'
 draw_color = range_rgb["black"]
-
+# print(roi_data)
+# detect_type=roi_data['/**']["ros__parameters"]["detect_type"]
 size = (320, 240)
 
 def run(img):
@@ -93,8 +94,15 @@ def run(img):
         centerX = int(common.val_map(centerX, 0, size[0], 0, img_w))
         centerY = int(common.val_map(centerY, 0, size[1], 0, img_h))
         radius = int(common.val_map(radius, 0, size[0], 0, img_w))
-        cv2.circle(img, (centerX, centerY), radius, range_rgb[color_area_max], 2)  # draw circle
+        #cv2.circle(img, (centerX, centerY), radius, range_rgb[color_area_max], 2)  # draw circle
 
+        #w, h = 100, 100  # width and height of the rectangle
+        top_left = (centerX - radius, centerY - radius)
+        bottom_right = (centerX + radius, centerY + radius)
+        detect_type = node.get_parameter('detect_type').get_parameter_value().string_value
+        color_name = node.get_parameter('color_name').get_parameter_value().string_value
+
+        #cv2.rectangle(img,(220,0),(510,128),(0,255,0),3)
         if color_area_max == 'red':
             color = 1
         elif color_area_max == 'green':
@@ -119,7 +127,27 @@ def run(img):
                 draw_color = range_rgb["blue"]
             else:
                 detect_color = 'None'
-                draw_color = range_rgb["black"]               
+                draw_color = range_rgb["black"]  
+        
+        #when no colorname is set: then draw everythinh
+        #when color is set, draw only the colored rect
+
+        if detect_color==color_name or color_name=='None':
+
+            if detect_type =="rectangle":
+                x, y, w, h = cv2.boundingRect(areaMaxContour_max)
+
+                # If you need to map from resized frame to original frame:
+                x = int(common.val_map(x, 0, size[0], 0, img_w))
+                y = int(common.val_map(y, 0, size[1], 0, img_h))
+                w = int(common.val_map(w, 0, size[0], 0, img_w))
+                h = int(common.val_map(h, 0, size[1], 0, img_h))
+
+                top_left = (x, y)
+                bottom_right = (x + w, y + h)
+                cv2.rectangle(img, top_left, bottom_right, range_rgb[color_area_max], 2)
+            else:
+                cv2.circle(img, (centerX, centerY), radius, range_rgb[color_area_max], 2)  # draw circle             
     else:
         detect_color = 'None'
         draw_color = range_rgb["black"]
@@ -146,7 +174,7 @@ def main():
         except queue.Empty:
             if not running:
                 break
-            else:
+            else: 
                 continue
         image = run(image)
         cv2.imshow('image', image)
@@ -160,6 +188,9 @@ def main():
 if __name__ == '__main__':
     rclpy.init()
     node = rclpy.create_node('color_detect_node')
+    node.declare_parameter("detect_type", 'circle')
+    node.declare_parameter("color_name", 'None')
+    
     node.create_subscription(Image, '/ascamera/camera_publisher/rgb0/image', image_callback, 1)
     threading.Thread(target=main, daemon=True).start()
     rclpy.spin(node)

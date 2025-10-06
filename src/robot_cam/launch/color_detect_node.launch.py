@@ -77,4 +77,3 @@ def generate_launch_description():
 
 if __name__ == '__main__':
     generate_launch_description()
-

@@ -1,32 +1,17 @@
 lab:
   Stereo:
-      red:
-        max:
-        - 255
-        - 255
-        - 255
-        min:
-        - 70
-        - 130
-        - 130
-      green:
-        max:
-        - 255
-        - 127
-        - 255
-        min:
-        - 50
-        - 0
-        - 0
-      blue:
-        max:
-        - 255
-        - 255
-        - 127
-        min:
-        - 50
-        - 0
-        - 0
+    red:
+      min: [20, 150, 150]    # L=20, a=150+, b=150+ → red tones
+      max: [255, 200, 255]
+
+    green:
+      min: [20, 50, 150]     # L=20, a ~ low (green), b ~ higher
+      max: [255, 120, 200]
+
+    blue:
+      min: [0, 140, 0]       # a ~ high (blue has some magenta), b ~ low
+      max: [255, 200, 130]
+
 size:
   height: [480]
   width: [640]
